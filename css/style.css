@@ -80,6 +80,9 @@ overflow: hidden;
   transform-origin: center;
 }
 
+.rain-cloud{
+  animation: rain-cloud 6s infinite linear;
+}
 
 .band-7{
   animation: band-7 5s infinite linear;
@@ -147,6 +150,12 @@ overflow: hidden;
     0%, 10%{opacity: 0; transform: translateY(0px);}
     50%{opacity: 1;}
     100%{opacity: 0; transform: translateY(20px);}
+}
+
+@keyframes rain-cloud {
+    0%{fill: #385c5c; stroke: #385c5c;}
+    50%{fill: #164040; stroke: #164040;}
+    100%{fill: #385c5c; stroke: #385c5c;}
 }
 
 /* #E21417 - red
